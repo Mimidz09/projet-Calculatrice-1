@@ -4,27 +4,37 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(90deg, rgb(239, 211, 216), rgb(155, 155, 243));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    padding: 5px;
+    padding: 15px;
     border-radius: 5px;
-    background: white;
+    background: #540660;
 }
 
-.outputScreen {
-    text-align: right;
+
+
+#outputScreen {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
     margin: 0;
-    padding: 1rem;
-    background: lightblue;
+    padding-right: 10px;
+    height: 8rem;
+    background: rgb(187, 235, 170);
     border: 1px solid grey;
     border-radius: 5px;
 }
 
+.AC {
+    background-color:#99e599;
+
+}
 div {
     display: flex;
 }
@@ -36,8 +46,15 @@ button {
     border: 1px solid grey;
     margin: 3px 3px 0px 3px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .equal {
     flex: auto;
+    background-color:#99e599;
+}
+
+button:active {
+    box-shadow: 0 1px blueviolet;
+    transform: translate(3px);
 }
