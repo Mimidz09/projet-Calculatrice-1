@@ -25,14 +25,14 @@ main {
     flex-wrap: wrap;
     margin: 0;
     padding-right: 10px;
-    height: 8rem;
+    height: 6rem;
     background: rgb(187, 235, 170);
     border: 1px solid grey;
     border-radius: 5px;
 }
 
 .AC {
-    background-color:#99e599;
+    background-color:#5d24a8;
 
 }
 div {
